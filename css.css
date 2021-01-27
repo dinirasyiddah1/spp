@@ -1,0 +1,144 @@
+
+
+.ssip{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 50px;
+    background: #1f5088;
+    z-index: 9999;
+}
+
+.tulisan-ssip{
+    color: rgb(200, 203, 209);
+    font-family: Arial;
+    font-size: 20pt;
+    margin: 10px 10px 10px 10px;
+  }
+
+.ssip2{
+    position: fixed;
+    top: 0px;
+    left: 200px;
+    right: 0px;
+    height: 50px;
+    background: #3c6ca7;
+    z-index: 9998;
+}
+
+.sidebar{
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    width: 200px;
+    height: 100%;
+    background: #04101f;
+    z-index: 9997;
+}
+
+.sidebar a {
+    display: block;
+    color:  #b6c0ce;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color:#000000;
+    color: white;
+  }
+
+.container{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    right: 0px;
+    height: 100%;
+}
+
+.judul{
+  position: absolute;
+    top: 50px;
+    left: 400px;
+    
+}
+
+.container-cetak{
+  position: relative;
+  top: 30px;
+  left: 250px;
+  right:250px;
+  bottom: 0px;
+  border: 10px solit green;
+}
+
+  .tempat{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    right: 0px; 
+    bottom: 0px;       
+  }
+
+  .tempat-input{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 100%; 
+    bottom: 0px;       
+  }
+
+  .tempat-cetak{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    right: 0px; 
+    bottom: 0px;       
+  }
+
+  .kepsek{
+    position: absolute;
+    top: 200px;
+    bottom: 300px;
+    left: 50px;
+  }
+
+  .kepsek2{
+    position: absolute;
+    top: 300px;
+    bottom: 300px;
+    left: 30px;
+  }
+
+  .petugas{
+    position: absolute;
+    top: 200px;
+    bottom: 300px;
+    left: 700px;
+  }
+
+  .petugas2{
+    position: absolute;
+    top: 300px;
+    bottom: 300px;
+    left: 660px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 6px;
+  }
+  
+  tr:nth-child(even){background-color: #eeeef5}
+  
+  th {
+    background-color: rgb(59, 71, 124);
+    color: white;
+  }
+
